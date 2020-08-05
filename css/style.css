@@ -1,0 +1,329 @@
+/*Start General Rulez*/
+body{padding-top: 70px;overflow: hidden}
+
+h1,h2,h3,h4,h5,.lead{font-family: 'Droid Sans', sans-serif}
+/*end General Rulez*/
+
+/*start overriding bootstrap*/
+/*start nav*/
+.navbar{
+    min-height: 70px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #bbb;
+    font-size: 16px;
+    cursor: pointer;
+    padding-top:25px;
+    padding-bottom:25px;
+}
+
+.navbar-inverse .navbar-nav > .active > a{
+    background-color: #f00;
+}
+
+.navbar-inverse .navbar-nav > .active > a:hover{
+    background-color: #222;
+}
+
+.navbar-nav > li > a{
+    padding-top: 25px;
+    padding-bottom: 25px
+}
+
+.navbar-inverse .navbar-brand{
+    color: #f00;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.navbar-right .dropdown-menu{
+    left:0;
+    right: auto
+}
+
+.navbar-toggle{
+    margin-top: 18px
+}
+
+.dropdown-menu{
+    background-color: #333;
+    min-width: 200px
+}
+
+.dropdown-menu > li > a{
+    color: #fff;
+    padding: 6px 20px;
+    -webkit-transition: padding 0.5s ease;
+    -moz-transition: padding 0.5s ease;
+    -o-transition: padding 0.5s ease;
+    transition: padding 0.5s ease;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus{
+    color:#f00;
+    padding-left: 25px;
+}
+
+.dropdown-menu .divider {
+    background-color:#f00
+}
+
+/*end nav*/
+
+/*start carousal*/
+
+.carousel-caption{
+   bottom: 70px;
+   background: rgba(255,0,0,0.5);
+   padding-right: 20px;
+   padding-left: 20px;
+   color: #222;
+   font-size: 20px;
+}
+.carousel-indicators{
+    bottom: 0
+}
+
+.carousel-indicators li{
+    height: 15px;
+    width:15px;
+    border:1px solid #f00;
+    background: rgba(0,0,0,0.3);
+}
+.carousel-indicators .active{
+    height: 17px;
+    width:17px
+}
+
+.carousel-inner > .item > img{
+    width: 100%
+}
+
+/*end carousal*/
+
+/*start about*/
+
+.about h1{
+    color: #f00;
+}
+
+.about .lead {
+    color:#888;
+    font-size:25px;
+    margin-top:15px
+}
+
+/*end about*/
+
+/*start lang*/
+
+.lang {
+    background:#EEE
+}
+
+.lang .h1{
+    color: #f00;
+}
+
+.lang .lan {
+    margin-bottom:30px
+}
+
+.lang .lan h4{
+    color:#888;
+}
+
+.lang .lan p {
+    line-height:2em
+}
+
+.lang .lan span.glyphicon {
+    font-size:25px;
+    margin-bottom:10px;
+    color:#666
+}
+
+/*end lang*/
+
+/*start hd*/
+.hd span {
+    font-size:18px;
+    font-weight:bold
+}
+
+.hd .h1 {
+    margin-bottom:20px;
+    color: #f00;
+}
+
+.hd .lead {
+    line-height:2em;
+    margin-bottom:10px
+}
+
+.hd .carousel-inner {
+    min-height:160px
+}
+
+.hd .carousel-indicators
+{
+    position:static;
+    width:100%;
+    margin-left:auto;
+    padding-top:20px
+}
+
+.hd .carousel-indicators li
+{
+    text-indent:0;
+    width:80px;
+    height:80px;
+    opacity:0.4;
+    border: 3px solid #FFF;
+    border-radius:50%;
+    overflow:hidden;
+    margin:5px
+}
+
+.hd .carousel-indicators li.active
+{
+    width:80px;
+    height:80px;
+    opacity:1;
+    background:none
+}
+
+.hd .carousel-indicators li img {
+    max-width:100%
+}
+/*end hd*/
+
+/*start computer*/
+
+.computer {
+    background:#EEE
+}
+
+.computer .com {
+    background:#FFF;
+    padding:10px;
+    border:1px solid #DDD;
+    margin-bottom:15px
+}
+
+.computer .h1{
+    color: #f00;
+}
+
+.computer .com h2 {
+    margin:5px 0 15px;
+}
+
+.computer .com:hover p
+{
+    -webkit-transform:scale(1.1,1.1) rotate(360deg);
+    -moz-transform:scale(1.1,1.1) rotate(360deg);
+    -o-transform:scale(1.1,1.1) rotate(360deg);
+    transform:scale(1.1,1.1) rotate(360deg);
+    border:2px solid #DFDFDF
+}
+
+.computer .com p{
+    font-size:20px;
+    font-weight:bold;
+    color:#666;
+    width:100px;
+    height:100px;
+    background:#F3F3F3;
+    border-radius:50%;
+    line-height:100px;
+    border:2px solid #FFF;
+    transition-duration: 0.7s;
+    -webkit-transition-duration: 0.7s;
+    -moz-transition-duration: 0.7s;
+    -o-transition-duration: 0.7s;
+}
+
+.computer .com ul {
+    line-height:250%;
+    font-size:18px
+}
+
+.computer .com a {
+    margin-bottom:5px
+}
+
+/*end computer*/
+
+/*start our team*/
+.our_team
+{
+    background:url('../images/team.jpg') no-repeat center center fixed;
+    min-height:300px
+}
+
+.our_team .team {
+    background:rgba(2,2,2,0.8);
+    color:#FFF;
+    min-height:300px
+}
+
+.our_team .person {
+    margin-bottom:40px
+}
+/*end our team*/
+
+/*start contact*/
+
+.contacts
+{
+    background:url('../images/contact-us.jpg') no-repeat center center fixed;
+    min-height:300px    
+}
+
+.contacts .contact {
+    background:rgba(9,9,9,0.5);
+    min-height:300px;
+    color:#DDD
+}
+
+.contacts p {
+    margin-bottom:40px
+}
+
+.contacts textarea {
+    height:108px
+}
+
+.contacts input[type="text"],
+
+.contacts textarea {
+    background:rgba(255,255,255,0.8);
+    color:#000;
+    border:none
+}
+
+/*end contact*/
+
+/*start footer*/
+
+.footer {
+    background:#111;
+    color:#AAA;
+    padding-top:10px
+}
+
+.footer .copyright{
+    padding:15px 0;
+    font-size:18px
+}
+
+.footer .copyright span{
+    color: #f00;
+}
+
+/*end footer*/
+
+/*end overriding bootstrap*/
